@@ -1,0 +1,1 @@
+import{n as e}from"./controls.DkNepZsG.js";e(`publications-desk`,document.querySelector(`.play`),document.querySelector(`.typer .field`));

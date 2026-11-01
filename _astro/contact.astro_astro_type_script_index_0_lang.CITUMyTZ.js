@@ -1,0 +1,1 @@
+var e=document.querySelector(`canvas[data-scene="wave"]`),t=document.querySelector(`.copy-btn`);e&&t&&(e.classList.add(`clickable`),e.addEventListener(`click`,()=>t.click()),t.addEventListener(`copied`,()=>e.dispatchEvent(new Event(`scene-press`))));

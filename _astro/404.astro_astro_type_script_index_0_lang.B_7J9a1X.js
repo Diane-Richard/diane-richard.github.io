@@ -1,0 +1,1 @@
+import{t as e}from"./controls.DkNepZsG.js";e(`404-hurdle`,document.querySelector(`.play`));

@@ -1,0 +1,1 @@
+if(!window.matchMedia(`(prefers-reduced-motion: reduce)`).matches){let e=new IntersectionObserver(t=>t.forEach(t=>{t.isIntersecting&&(t.target.classList.add(`hop`),e.unobserve(t.target))}),{threshold:.9});document.querySelectorAll(`.hops`).forEach(t=>e.observe(t))}

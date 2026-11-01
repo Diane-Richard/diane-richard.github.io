@@ -1,0 +1,1 @@
+var e={w:60,h:42,mask:new Uint8Array(2520),cursor:null,interactive:!1};function t(t,n,r=3.6){let i=r*r;for(let a=Math.floor(n-r);a<=n+r;a++)for(let o=Math.floor(t-r);o<=t+r;o++){if(o<0||a<0||o>=e.w||a>=e.h)continue;let r=(o-t)**2+(a-n)**2;(r<i*.6||r<i&&(o*7+a*13)%5<3)&&(e.mask[a*e.w+o]=1)}}var n=()=>e.mask.fill(1),r=()=>e.mask.fill(0);export{r as i,n,t as r,e as t};

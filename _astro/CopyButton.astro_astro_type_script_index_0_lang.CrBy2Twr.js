@@ -1,0 +1,1 @@
+document.querySelectorAll(`.copy-btn`).forEach(e=>{let t=e.textContent,n=e.nextElementSibling;e.addEventListener(`click`,async()=>{try{await navigator.clipboard.writeText(e.dataset.copy??``)}catch{return}e.dispatchEvent(new Event(`copied`));let r=n?.dataset.copied??`Copied`;e.textContent=r,n&&(n.textContent=r),setTimeout(()=>{e.textContent=t,n&&(n.textContent=``)},2e3)})});

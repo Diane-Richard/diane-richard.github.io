@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diane-richard.github.io/sitemap.xml

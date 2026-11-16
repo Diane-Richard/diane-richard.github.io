@@ -1,0 +1,1 @@
+var e=document.querySelector(`.btn.soon`),t=e?.parentElement?.querySelector(`[role="status"]`);if(e){let n=e.textContent??``,r=0;e.addEventListener(`click`,()=>{e.textContent=e.dataset.soon??``,t&&(t.textContent=e.dataset.soon??``),clearTimeout(r),r=window.setTimeout(()=>{e.textContent=n,t&&(t.textContent=``)},2500)})}

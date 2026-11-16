@@ -1,0 +1,1 @@
+var e=document.querySelector(`.lightbox`),t=e?.querySelector(`img`);document.querySelectorAll(`.mosaic .zoom`).forEach(n=>{n.addEventListener(`click`,r=>{e&&t&&(r.preventDefault(),t.src=n.href,t.alt=n.querySelector(`img`)?.alt??``,e.showModal())})}),e?.addEventListener(`click`,t=>{t.target===e&&e.close()});

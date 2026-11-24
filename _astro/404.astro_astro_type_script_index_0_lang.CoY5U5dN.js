@@ -1,0 +1,1 @@
+import{t as e}from"./controls.C8e-Rm2M.js";e(`404-hurdle`,document.querySelector(`.play`));
